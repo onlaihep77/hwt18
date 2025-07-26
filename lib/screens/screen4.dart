@@ -8,17 +8,17 @@ class Screen4 extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 16),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
-        color: Colors.white, // nền trắng cho phần card tổng
+        color: Colors.white, 
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Phần ảnh màu xanh nhạt
+          
           Container(
             height: 100,
             width: double.infinity,
             decoration: BoxDecoration(
-              color: const Color(0xFF4AA3C4), // màu xanh nhạt (giống mẫu)
+              color: const Color(0xFF4AA3C4), 
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(12),
                 topRight: Radius.circular(12),
@@ -28,7 +28,7 @@ class Screen4 extends StatelessWidget {
               child: Icon(Icons.image, color: Colors.white, size: 40),
             ),
           ),
-          // Phần thanh trắng chứa text
+          
           Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
@@ -56,7 +56,7 @@ class Screen4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0C3C49), // nền xanh đậm như hình
+      backgroundColor: const Color(0xFF0C3C49), 
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16),
